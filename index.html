@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO-Do APP</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <div class="input-con">
+          <input type="text" placeholder="Enter your task here..." id="input" />
+          <button id="add" onclick="addTask()">+</button>
+        </div>
+        <ul class="task-con"></ul>
+
+        <div class="controls">
+          <button id="Select" onclick="selects()">Select All</button>
+          <button id="delete" onclick="deleteItem()">Delete</button>
+          <button id="checked" onclick="checkedTask1()">Checked</button>
+          <button id="unchecked" onclick="uncheckedTask1()">Unchecked</button>
+          <button id="all" onclick="all1()">All</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
